@@ -38,6 +38,10 @@ function MyComponent() {
             <h1>Marvelike</h1>
           </div>
           <div className= {stylesCarrusel.images}>
+            <div className= {stylesCarrusel.buttonLogin}>
+              <p>Quiero Loguearme</p>
+              <button>Ingresar</button>
+            </div>
             <Carousel
             infiniteLoop
             autoPlay
@@ -52,6 +56,9 @@ function MyComponent() {
             ))}
             </Carousel> 
           </div>
+          <div className= {stylesCarrusel.footer}>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eos veniam autem, doloribus illum itaque ipsa nobis a iusto. Temporibus sequi obcaecati quibusdam cupiditate. Commodi ipsam corrupti officia perferendis eum!</p>
+            </div>
         </div>
       );
     }
